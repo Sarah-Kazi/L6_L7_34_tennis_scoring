@@ -1,0 +1,17 @@
+$ python -m coverage run --branch -m pytest BranchCoverageTest_tennis_scoring.py 
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.2.0, pluggy-1.7.0
+rootdir: C:\Users\Sarah\Downloads\SE\lab67\L6_L7_34_tennis_scoring\lab6
+collected 34 items
+
+BranchCoverageTest_tennis_scoring.py ..................................  [100%]
+
+============================= 34 passed in 0.12s ==============================
+ 
+$ python -m coverage report -m 
+Name                                   Stmts   Miss Branch BrPart  Cover   Missing
+----------------------------------------------------------------------------------
+BranchCoverageTest_tennis_scoring.py      43      0      0      0   100%
+tennis_scoring.py                         38      0     30      0   100%
+----------------------------------------------------------------------------------
+TOTAL                                     81      0     30      0   100%
